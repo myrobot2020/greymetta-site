@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">GreyMetta mark</title>
+  <desc id="desc">Monogram logo with the letters G and M.</desc>
+  <defs>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2f4f8" />
+      <stop offset="45%" stop-color="#b9bec7" />
+      <stop offset="100%" stop-color="#7d828b" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#06070b" />
+  <path d="M45.6 14.8c-2.8-2.4-6.2-3.6-10.4-3.6-9.8 0-16.7 6.9-16.7 16.8 0 9.6 6.4 17 17.7 17 3.9 0 7.4-.8 10.1-2.1V28.8H34v5h6.6v5.9c-1.1.4-2.4.6-4 .6-6.9 0-11.9-4.8-11.9-11.9 0-7 4.8-11.8 11.6-11.8 3.1 0 5.6.8 7.8 2.5Z" fill="url(#metal)" />
+  <path d="M12.8 49.8V22.3h5.6l13.6 14.4 13.8-14.4h5.5v27.5h-5.8V31.4L32 45.1 18.7 31.4v18.4Z" fill="url(#metal)" />
+  <circle cx="32" cy="31.7" r="2.8" fill="#c9c8ff" />
+</svg>
