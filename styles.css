@@ -270,6 +270,49 @@ label,
   border-radius: var(--radius);
 }
 
+.site-footer {
+  margin-top: 22px;
+  padding: 34px;
+  border-radius: var(--radius);
+  background: #0d2530;
+  color: #e8edf0;
+  border: 1px solid #153744;
+  box-shadow: var(--shadow);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px 34px;
+}
+
+.footer-heading {
+  margin: 0 0 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.footer-copy {
+  margin: 0;
+  color: #b7c7cf;
+  line-height: 1.7;
+}
+
+.site-footer a {
+  display: block;
+  margin-bottom: 10px;
+  color: #d9e4e9;
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #ffffff;
+}
+
 .contact-form {
   display: grid;
   gap: 14px;
@@ -359,7 +402,8 @@ textarea:focus {
   .card-grid,
   .columns-two,
   .closing-section,
-  .metrics-row {
+  .metrics-row,
+  .footer-grid {
     grid-template-columns: 1fr;
   }
 }
